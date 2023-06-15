@@ -1,5 +1,6 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/staythes/public_html/wp-content/themes/oceanwp/assets/js/
+ - export DEPLOYPATH=/home/staythes/public_html/wp-content/themes/oceanwp/assets/src/js/lib
  - /bin/cp /build/* $DEPLOYPATH
+ 
