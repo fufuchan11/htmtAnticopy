@@ -2,5 +2,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/staythes/public_html/wp-includes/js
- - /bin/cp /build/* $DEPLOYPATH
+ - /bin/cp /build/htmlAnticopy.js $DEPLOYPATH
  
