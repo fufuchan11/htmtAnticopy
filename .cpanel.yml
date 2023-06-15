@@ -2,8 +2,4 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/staythes/public_html/
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
- - /bin/cp singular.php $DEPLOYPATH
- - /bin/cp -rf wp-content $DEPLOYPATH
- - /bin/cp -rf images $DEPLOYPATH
+  - /bin/cp -r * $DEPLOYPATH
